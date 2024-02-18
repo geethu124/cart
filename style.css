@@ -1,0 +1,41 @@
+.box{
+    border:2px solid rgb(189, 188, 188);
+    float: left;
+    width: 250px;
+    margin: 7px;
+    height: 200px;
+    text-align: center;
+    border-radius: 12px;
+    outline: 1px solid rgba(146, 145, 145, 0.856);
+    outline-offset: -5px;
+}
+.box:hover{
+    outline-offset: 0px;
+    outline: 1px solid rgba(56, 55, 55, 0.568);
+}
+.box img{
+      width: 100px;
+      height: 100px;
+      
+}
+.box p{
+    font-size: 12px;
+}
+
+.btn{
+    background-color: orange;
+    width: 140px;
+    height: 30px;
+    border-radius: 12px;
+    border: 0px solid gray;
+    font-size: 12px;
+    color: rgb(124, 124, 122);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: wheat;
+    color:orange;
+    border: 2px solid orange;
+    box-shadow: 0px 20px 10px px rgb(63, 54, 45);
+}
